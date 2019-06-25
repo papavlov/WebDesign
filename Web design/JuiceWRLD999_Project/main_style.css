@@ -1,0 +1,66 @@
+h1 {
+	text-align: center;
+	color: #00ccff;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+
+}
+
+h2 {
+	text-align: center;
+	color: #00ccff;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 50px;
+
+}
+
+body{
+	background-image: url("main1.jpg");
+	background-size: cover;
+	
+}
+
+
+
+ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  	display: inline;
+  	color: #00ccff;
+  	text-align: center;
+  	padding: 88px 88px;
+  	text-decoration: none;
+	font-family: 'Permanent Marker', cursive;
+	font-size:20px;
+}
+
+li a:hover:not(.active) {
+  background-color: purple;
+}
+
+a{
+	text-decoration: none;
+	color: #00ccff;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}

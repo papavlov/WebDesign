@@ -1,0 +1,49 @@
+h1 {
+	text-align: center;
+	color: #00ccff;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+
+}
+
+h2 {
+	text-align: center;
+	color: #00ccff;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 40px;
+
+}
+
+h3 {
+	text-align: left;
+	color: #00ccff;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+
+}
+
+
+
+body {
+    background-image: url("2.jpeg"), url("jw.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 50%;
+    background-position: top left, bottom right;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: #00ccff;
+}
+
+p {
+	
+	color: #cc0000;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+
+}
+
+

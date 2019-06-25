@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Official Juice WRLD Site</title>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./tour_style.css">
+</head>
+<body>
+
+	<h1>Death Race For Love Tour /featuring Ski Mask The Slump God and Cole Benneth/</h1>
+	<h2>999</h2>
+	<h3><a href="./main_page.html">&larr; Go Back To The Home Page</a></h3>
+	<ul>
+		<li><a target="_blank" rel="noopener noreferrer" href="https://deathraceforlove.com/pages/tour">&star; Buy tickets now!</a></li>
+
+
+	</ul>
+
+	<img id="myImg" src="tour.png" alt="Death Race For Love Tour"  width="400" height="200">
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		  <span class="close">&#10006;</span>
+		  <img src="modal-content" class="modal-content" alt="modal-content" id="img01">
+		  <div id="caption"></div>
+		</div>
+
+	<script>
+				// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById('myImg');
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+	</script>
+	<div>
+		<p>&bullet; Click on the image to zoom</p>
+	</div>
+</body>
+
+</html>

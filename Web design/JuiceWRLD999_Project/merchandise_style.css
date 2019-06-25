@@ -1,0 +1,103 @@
+h1 {
+	text-align: center;
+	color: #ffcc00;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+
+}
+
+h2 {
+	text-align: center;
+	color: #ffcc00;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 50px;
+
+}
+
+a:hover{
+	text-decoration: none;
+	color: #00ccff;
+}
+
+a{
+	text-decoration: none;
+	color: #ffcc00;
+}
+
+h3 {
+	text-align: left;
+	color: #ffcc00;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+
+}
+
+body {
+	background-color: white;
+	min-height:100%;
+  	background:linear-gradient(0deg,rgba(255, 255,255,0.3),rgba(255,255,255,0.3)), url("4.jpg");
+  	background-size:cover;
+
+}
+
+.bundles {
+	width:400px;
+}
+
+
+ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+}
+
+
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #00ccff;
+  color: white;
+
+  padding: 25px;
+  font-size: 20px;
+  border: none;
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00ccff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #990099;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:	#00ccff;}

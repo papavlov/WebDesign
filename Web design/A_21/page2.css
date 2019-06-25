@@ -1,0 +1,28 @@
+ul{
+	list-style-type: none;
+	margin: 30;
+	padding: 30;
+	text-align: center;
+
+}
+li{
+	display: inline;
+	color: wgite;
+	font-size: 25px;
+	margin: 35px;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: Blogger Sans;
+	font-size: 55px;
+}
+table, th, td {
+	border:2px solid white;
+	
+			
+}
+body{
+	background-color:#052730;
+	text-decoration-color: white;
+}
