@@ -1,1 +1,1 @@
-Web design project - an example website, serving as an online shop as well. Develop on HTML and CSS.
+Web design project - an example website. Developed on HTML and CSS.
